@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "首页"
+title: "Junchao Guo's cyber garden"
 ---
 
-欢迎来到我的个人网站！
+Welcome to my personal website!
 
-这里是我的一些介绍、最新动态或博客列表。
+Here is my notes and journal.
 
-- [关于我]({{ "/about/" | /about/ }})
+- [About me]({{ "/about/" | relative_url }})
