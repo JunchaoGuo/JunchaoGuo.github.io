@@ -9,4 +9,10 @@ Here are my notes and journals.
 
 - [About me]({{ "/about/" | relative_url }})
 
-- [ Nil ]({{ "/nil/" | relative_url }})
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
