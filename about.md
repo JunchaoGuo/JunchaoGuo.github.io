@@ -4,6 +4,16 @@ title: "关于我"
 permalink: /about/
 ---
 
-# 关于我
+# About
 
-这里写上你的个人简介、兴趣爱好、工作经历等信息。
+Thank you for browse my personal webpage! I am Junchao Guo(郭俊超). Quick info about me:
+
+- Male
+- Born in China
+- Educated in China
+- Speak Chinese(1st) and English(2nd)
+- Get bachelor degree at Shanghai JiaoTong University in 2020
+- Physics PhD student (2020 – 2025)
+  
+I am interested in theoretical physics, especially in quantum manybody theory and nuclear physics.
+
