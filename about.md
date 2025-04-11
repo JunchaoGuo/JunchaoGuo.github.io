@@ -1,10 +1,8 @@
 ---
 layout: page
-title: "关于我"
+title: "About"
 permalink: /about/
 ---
-
-# About
 
 Thank you for browse my personal webpage! I am Junchao Guo(郭俊超). Quick info about me:
 
