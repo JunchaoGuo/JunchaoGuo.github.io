@@ -1,0 +1,30 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<!-- <html lang="zh-CN"> -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <!-- 其他页头内容 -->
+  </header>
+
+  <div class="container">
+    <!-- 插入侧边栏 -->
+    {% include sidebar.html %}
+
+    <!-- 主内容区 -->
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. 保留所有权利。</p>
+  </footer>
+</body>
+</html>
