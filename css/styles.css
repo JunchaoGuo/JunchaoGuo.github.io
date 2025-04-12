@@ -1,0 +1,33 @@
+/* css/styles.css */
+
+/* 布局整体样式 */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* 侧边栏样式 */
+  .sidebar {
+    flex: 0 0 200px;  /* 固定宽度200px */
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* 主内容区域样式 */
+  .content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* 自适应调整：在屏幕窄的时候让 sidebar 移到上方或下方 */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .sidebar {
+      width: 100%;
+    }
+  }
+  
